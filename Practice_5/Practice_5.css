@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.name-container-top {
+  padding: 20px 20px;
+  color: rgb(7, 42, 79);
+  background: linear-gradient(to bottom, white, rgb(81, 126, 195));
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 1500px;
+  height: 80px;
+  max-width: 100%;
+  z-index: 1;
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  background-image: url(https://imageresizer.yachtsbt.com/boats/116020/5e3ac2b94fb47819eb3e09bb.jpeg);
+  width: 1500px;
+  height: 830px;
+  background-size: 100% 100%;
+  max-width: 100%
+}
+  
+.item-absolute {
+  position: absolute;
+  top: 140px;
+  left: 550px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: 'Arial';
+  font-style: normal;
+  color: rgb(7, 42, 79);
+  max-width: 100%
+
+
+}
+
+.rectangle {
+  box-sizing: border-box;
+  position: absolute;
+  justify-content: center;
+  width: 940px;
+  height: 180px;
+  top: 950px;
+  left: 300px;
+  border: 3px solid rgb(0, 123, 255);
+  border-radius: 20px;
+  text-align: center;
+  max-width: 100%
+
+}
+
+.box-one {
+position: absolute;
+width: 450px;
+height: 350px;
+left: 50px;
+top: 1270px;
+}
+
+.text-one {
+position: absolute;
+width: 450px;
+height: 350px;
+left: 50px;
+top: 1650px;
+}
+
+
+.box-two {
+position: absolute;
+width: 450px;
+height: 350px;
+left: 530px;
+top: 1270px;
+}
+  
+.text-two {
+position: absolute;
+width: 450px;
+height: 350px;
+left: 530px;
+top: 1650px;
+}
+
+
+.box-three {
+position: absolute;
+width: 450px;
+height: 350px;
+left: 1010px;
+top: 1270px;
+}
+    
+.text-three {
+position: absolute;
+width: 450px;
+height: 350px;
+left: 1010px;
+top: 1650px;
+  }
+  
+.rectangle-two {
+box-sizing: border-box;
+position: absolute;
+width: 940px;
+height: 180px;
+left: 300px;
+top: 2000px;
+border: 3px solid rgb(0, 123, 255);
+border-radius: 20px;
+}
+
+.rectangle-two-logo {
+box-sizing: border-box;
+position: absolute;
+left: 310px;
+top: 2010px;
+}
+
+.rectangle-two-text {
+box-sizing: border-box;
+position: absolute;
+width: 640px;
+height: 180px;
+left: 550px;
+top: 2020px;
+}
+
+.name-container-bottom {
+padding: 20px 20px;
+color: rgb(247, 247, 248);
+background: linear-gradient(to top, white, rgb(81, 126, 195));
+display: flex;
+justify-content: space-between;
+position: absolute;
+width: 1500px;
+height: 80px;
+top: 2300px;
+max-width: 100%;
+  }
+    

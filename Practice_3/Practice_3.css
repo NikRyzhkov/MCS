@@ -15,6 +15,14 @@
 .image-container {
   display: flex;
   justify-content: center;
+  background-image: url(https://i.insider.com/5730c9b3dd089526328b48cf?width=1000&format=jpeg&auto=webp);
+  width: 1600px;
+  height: 1100px;
+  background-size: 100% 100%;
+
+
+  
+ 
 }
   
 .comment-container {
