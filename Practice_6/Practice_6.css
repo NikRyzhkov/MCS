@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+
+  }
+  
+  .section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu {
+    background-color: #0b24fb;
+    color: #ffffff;
+    height: 80px;
+    justify-content: start;
+  }
+  
+  .feature-1,
+  .feature-2,
+  .feature-3,
+  .feature-4 {
+  border: 5px solid #000000;
+  text-align: center;
+  width: 600px;
+  height: 300px;
+  margin: 15px 10px;
+  max-width: 100%
+  }
+  
+  /* Макет для Iphone 12 Pro */
+  @media only screen and (max-width: 390px) {
+    body {
+      background-color: #fdfdfd;
+    }
+  }
+    
+  /* Макет для десктопов */
+  @media only screen and (min-width: 961px) {
+    .page {
+      width: 960px;
+      margin: 0 auto;
+    }
+    .feature-1,
+    .feature-2,
+    .feature-3,
+    .feature-4 {
+      width: 47%;
+    }
+    .header {
+       height: 400px;
+    }
+  }
