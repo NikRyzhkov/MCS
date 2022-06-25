@@ -52,18 +52,19 @@ justify-content: space-between
 
 .box {
 width: 450px;
-height: 350px;
 margin: 25px;
 }
      
 .rectangle-two {
 box-sizing: border-box;
 justify-content: center;
-margin: 300px auto 50px auto;
+margin: 60px auto;
 width: 940px;
 height: 180px;
 border: 3px solid rgb(0, 123, 255);
 border-radius: 20px;
+max-width: 100%
+
 }
 
 .logo{
