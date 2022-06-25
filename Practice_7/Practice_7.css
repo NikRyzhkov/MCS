@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  padding: 35px 30px;
+  background-color: #f8e300;
+  text-align: center;
+
+}  
+
+.container {
+display: flex; 
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.container__box {
+border: 3px solid rgb(255, 191, 0);
+padding: 5px;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+margin: 15px 10px;
+
+}
+
+.name {
+padding: 10px 0px;
+
+} 
+
+.footer {
+  padding: 35px 30px;
+  background-color: #f8e300;
+  text-align: center;
+}  
+
+/* Макет для мобильных */
+@media only screen and (max-width: 390px) {
+ 
+  .container__box {
+    width: 100%;
+    padding: 0;
+
+  }
+}
+  
+/* Макет для десктопов */
+@media only screen and (min-width: 961px) {
+  
+  .container__box {
+    width: 30%;
+  }
+}
+
