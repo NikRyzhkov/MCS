@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Practice_8.css"/>
+</head>
+<body>
+
+    <div class="menu">
+        <span><h1>ЗАЯВКА НА ПОСЫЛКУ</h1>
+        <div class="text">
+        <h2>Хочешь получить посылку? Тогда заполняй форму ниже!</h2></div>
+        </span>
+      </div>
+
+      <div class="image-container">
+
+        <div class="rectangle">
+ 
+            <form action="https://formspree.io/f/xknylwgy" method="POST" class="mailbox-form">
+               <div class="form-row">
+                   <label for="full-name">Имя</label>
+                   <input id="full-name" name="full-name" type="text"/>
+                 </div>
+
+                 <div class="form-row">
+                    <label for="city">Город</label>
+                    <input id="city" name="city" type="text"/>
+                  </div>
+           
+                 <div class="form-row">
+                   <label for="email">Почта</label>
+                   <input id="email"
+                     name="email"
+                     type="email"
+                     placeholder="mail@example.com"/>
+                 </div>
+           
+                 <fieldset class="legacy-form-row">
+                   <legend>Сколько вещей</legend>
+                   <input id="type-1"
+                     name="stuff"
+                     type="radio"
+                     value="one" 
+                     checked/>
+                   <label for="type-1" class="radio-label">Одна</label>
+                   <input id="type-2"
+                     name="stuff"
+                     type="radio"
+                     value="much"/>
+                   <label for="type-2" class="radio-label">Много</label>
+                 </fieldset>
+           
+           
+                 <div class="form-row">
+                   <label for="numerous">А именно?</label>
+                   <select id="numerous" name="numerous">
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                     <option value="10">10</option>
+                     <option value="many">Как можно больше</option>
+
+                   </select>
+                 </div>
+           
+                 <div class="form-row">
+                   <label for="message">А тут надо их перечислить (по пунктам!)</label>
+                   <textarea id="message" name="message"></textarea>
+                 </div>
+           
+           
+                 <div class="form-row">
+                   <label class="checkbox-label" for="available">
+                   <input id="available"
+                     name="available"
+                     type="checkbox"
+                     value="is-available"/>
+                   <span>Да, это то, что нужно!</span>
+                   </label>
+                 </div>
+           
+                 <div class="form-row">
+                   <button type="submit">Отправить</button>
+                 </div>
+           
+           </form>
+       
+       </div>
+       
+      </div>
+
+
+<div class="footer">
+    <span>Made by Nick R (thanks to MCS)</span>
+  </div>
+
+</body>
+</html>

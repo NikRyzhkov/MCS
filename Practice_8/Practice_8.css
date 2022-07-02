@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  padding: 35px 30px;
+  background-color: #d8b383;
+  text-align: center;
+  color: white;
+  font-family: 'Arial';
+  font-style: normal;
+  border: 3px solid white;
+  border-radius: 20px;
+}
+
+.text{
+position: relative;
+top: 90px;
+}
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    background-image: url(https://avatars.mds.yandex.net/get-zen_doc/2851998/pub_5fcfd8be9d0fbc29bad8f71b_60018855d0d4386c9f058c64/scale_1200);
+    height: 830px;
+    background-size: 100% 100%;
+    max-width: 100%;
+    align-items: center;
+    text-align: end;
+    font-family: 'Arial';
+    font-style: normal;
+    color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+  }
+
+  
+  .rectangle {
+    box-sizing: border-box;
+    justify-content: center;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    background-color: #d8b383;
+    border: 3px solid rgba(255, 140, 0, 0.836);
+    border-radius: 20px;
+    text-align: center;
+    max-width: 100%;
+    position: relative;
+    bottom: 110px;
+    left: -30%;
+    opacity: .85;
+
+  }
+
+    .mailbox-form {
+    border-radius: 3px;
+    width: 50%;
+    padding: 5px;
+  }
+  .form-row {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input[type='text'],
+  .form-row input[type="email"] {
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 5px;
+  }
+
+  .form-row input[type="text"]:invalid,
+  .form-row input[type="email"]:invalid {
+    border: 1px solid #D55C5F;
+    color: #D55C5F;
+    box-shadow: none;
+  }
+
+  .legacy-form-row {
+    border: none;
+    margin-bottom: 5px;
+  }
+  
+  .legacy-form-row legend {
+    margin-bottom: 5px;
+  }
+  
+  .legacy-form-row .radio-label {
+    display: block;
+    font-size: 14px;
+    padding: 0 20px 0 10px;
+  }
+  
+  .legacy-form-row input[type="radio"] {
+    margin-top: 2px;
+  }
+  
+  .legacy-form-row .radio-label,
+  .legacy-form-row input[type="radio"] {
+    float: left;
+  }
+
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    border-radius: 3px;
+    min-height: 200px;
+    margin-bottom: 5px;
+    padding: 7px;
+    resize: none;
+  }
+  
+  .form-row select {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    -webkit-appearance: none;
+  }
+
+  .form-row .checkbox-label {
+    margin-bottom: 0;
+  }
+
+  .form-row button {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(#89c13e, #599c02);
+  background-color: #6fad1d;
+  border-radius: 35px;
+  font: bold 15px/35px Arial;
+  box-shadow:
+    inset 0 2px 2px #cce464,
+    inset 1px 0 3px #b2dc2d,
+    inset -1px 0 3px #b2dc2d,
+    inset 0 -2px 2px #89d301,
+    0 0 3px rgba(0, 0, 0, 0.24);
+  position: relative;
+  text-shadow: 0 1px #45880d;
+  outline: none;
+  }
+  .form-row button:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 50px;
+    box-shadow: inset 0 1px 2px #bbb;
+
+  }
+
+  .form-row button:hover {
+    background: linear-gradient(#97d444, #65ad07);
+    box-shadow:
+      inset 0 1px 0 #e2f498,
+      inset 0 2px 0 #ceec87,
+      inset 0 3px 0 #c3e67c,
+      inset 0 5px 0 #bae475,
+      inset 1px 0 3px #b2dc2d,
+      inset -1px 0 3px #b2dc2d,
+      inset 0 -2px 2px #89d301,
+      0 0 3px rgba(0, 0, 0, 0.24);
+  }
+
+  .form-row button:active {
+
+    background: linear-gradient(#83bb37, #599c02);
+    box-shadow: inset 0 3px 7px #3c7b00;
+    padding: 1px 0 0 1px;
+  }
+
+
+.footer {
+    padding: 35px 30px;
+    background-color: #d8b383;
+    text-align: center;
+    color: white;
+    font-family: 'Arial';
+    font-style: normal;
+    border: 3px solid white;
+    border-radius: 20px;
+  }
+  
+
+@media only screen and (min-width: 700px) {
+  .mailbox-form-header,
+  .mailbox-form {
+    width: 400px;
+  }
+  
+  .form-row input[type="text"],
+  .form-row input[type="email"],    
+  .form-row select,                 
+  .form-row textarea {              
+  width: 250px;
+  height: initial;
+  }
+
+  .form-row {
+    flex-direction: row;
+    align-items: flex-start; 
+    margin-bottom: 0px;
+  }
+
+  .form-row input[type='text'] {
+    width: 250px;
+    height: initial;
+  }
+
+  .form-row label {
+    text-align: right;
+    width: 120px;
+    margin-top: 7px;
+    padding-right: 20px;
+  }
+
+  .legacy-form-row {
+      margin-bottom: 10px;
+    }
+  
+    .legacy-form-row legend {
+      width: 120px;
+      text-align: right;
+      padding-right: 20px;
+    }
+  
+    .legacy-form-row legend {
+      float: left;
+    }
+
+    .form-row .instructions {
+      margin-left: 120px;
+    }
+    .form-row .checkbox-label {
+      margin-left: 120px;
+      width: auto;
+    }
+    .form-row button {
+      margin-left: 120px;
+    }
+}
+
+
+@media only screen and (max-width: 390px) {
+ 
+  .container__box {
+    width: 100%;
+    padding: 0;
+
+  }
+}
