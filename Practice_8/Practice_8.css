@@ -259,11 +259,19 @@ top: 90px;
 }
 
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 400px) {
  
-  .container__box {
+  
+  .rectangle {
+    left: 0%;
     width: 100%;
     padding: 0;
-
+    position: relative;
+    bottom: 30px;
+    opacity: .75;
   }
+  .text{
+    position: relative;
+    top: 15px;
+    }
 }
