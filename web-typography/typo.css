@@ -1,29 +1,24 @@
 @font-face {
   font-family: "Roboto";
   src: url('Roboto-Light.woff') format('woff');
-  }
-
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('Roboto-Light.woff') format('woff');
   font-style: normal;
   font-weight: 300;
   }
   
   @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   src: url('Roboto-LightItalic.woff') format('woff');
   font-style: italic;
   font-weight: 300;
   }
   
   @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   src: url('Roboto-Bold.woff') format('woff');
   font-style: normal;
   font-weight: 700;
   }
+
 
 * {
   margin: 0;
@@ -33,6 +28,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-size: 18px;
   line-height: 1.8em;
   color: #5D6063;
@@ -46,8 +42,12 @@ body {
       font-weight: bold;  /* Или 700 */
       }
 
+      em, strong {
+        font-synthesis: none;
+        }
 
-h1, h2, h3, h4, h5, h6 {
+
+   h1, h2, h3, h4, h5, h6 {
   line-height: 1.3em;
   font-weight: normal;
   font-style: normal;
@@ -176,7 +176,6 @@ nav a:visited:active {
 .button:visited {
   display: block;
   text-decoration: none;
-
   color: #FFF;
   background-color: #29fd2f;
   font-weight: bold;
@@ -198,6 +197,7 @@ nav a:visited:active {
   color: #FFF;
   background-color: #29fd2f;
 }
+
 
 @media only screen and (min-width: 580px) {
   .section {
